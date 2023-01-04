@@ -1,21 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;600&display=swap');
 
 * {
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #cac8c8;
-}
-
-form {
-    padding: 30px;
-}
-
-form h3 {
-    text-align: center;
-    font-weight: bold;
 }
 
 .form-container {
@@ -24,6 +15,16 @@ form h3 {
     margin: 150px auto;
 }
 
+.form-container form {
+    padding: 30px;
+}
+
+form h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+
 form .input-container input, input[type="submit"] {
     color: #807e7e; 
     border: 1px solid #807e7e;
@@ -31,18 +32,18 @@ form .input-container input, input[type="submit"] {
     height: 40px;
     border-radius: 40px;
     padding: 0 45px 0 20px;
+    font-size: 1rem;  
 }
 
 form .input-container input::placeholder {
-    color:  #807e7e;      
+    color:  #807e7e;  
 }
 
 form input[type="submit"] {
     background-color: green;
     color: white;
     font-weight: bold;
-    padding: 0;
-    font-size: 14px;
+    padding: 0; 
 }
 
 form .input-container {
@@ -50,26 +51,67 @@ form .input-container {
     margin-bottom: 15px;
 }
 
-svg {
+form .input-container svg {
     position: absolute;
     right: 20px;
     top: calc(50% - 12px);
     color: #3b3a3a;
 }
 
-.options-container {
+form .options-container {
     padding: 0 10px 0 10px; 
 }
 
-.options-container .checkbox-container, a {
+form .options-container .checkbox-container, .options-container a {
     display: inline-block;
     width: 50%;
-    font-size: 13px;
+    font-size: 14px;
     margin: 20px auto;
 }
 
-.options-container a {
+form a {
     text-align: right;
     color: green;
     text-decoration: none; 
+}
+
+form .media-container {
+    width: fit-content;
+    margin: 20px auto;
+}
+
+form .media-container .icon-container {    
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #3b5998;
+    position: relative;
+}
+
+form .media-container .icon-container svg {
+    color: white;
+    top: calc(50% - 12px);
+    left: calc(50% - 12px);
+    position: absolute;
+}
+
+form .media-container .icon-container:nth-child(2) {
+    background-color: #d32130;    
+}
+
+form .media-container .icon-container:nth-child(3) {
+    background-color: #00a2ff;    
+}
+
+form p {
+    color:#807e7e;
+    font-size: 14px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.footer {
+    width: fit-content;
+    margin: 20px auto;
 }

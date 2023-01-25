@@ -9,7 +9,6 @@ Nesse trabalho, os botões **ainda** não estão funcionais, porém o objetivo �
 
 Conteúdo feito usando inspiração do site pinspiry.
 
-![GIF engraçado para descontrair](https://media.giphy.com/media/Jl0T1gCUKl1PETWZOq/giphy-downsized-large.gif)
+!![gif engraçado para descontrair](https://media.giphy.com/media/pKBZfGcYcgzrG/giphy.gif)
 
 **Espero que gostem do meu trabalho!** 
-

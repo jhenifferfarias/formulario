@@ -4,15 +4,19 @@
     box-sizing: border-box;
 }
 
+html, body {
+    margin: 0;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #cac8c8;
+    background-color: #61a76c;
 }
 
 .form-container {
     background-color: #ffffff;
     width: 350px;
-    margin: 150px auto;
+    margin: 50px auto;
 }
 
 .form-container form {
